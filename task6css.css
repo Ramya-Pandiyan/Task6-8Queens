@@ -1,0 +1,130 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+body{
+    background-image: url("C:\\Users\\Ramya\\Downloads\\webBG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.center{
+    background-color:rgb(158, 0, 74);
+    text-align: center;
+}
+.center ul{
+    display: inline-flex;
+    list-style: none;
+    
+    color: rgb(255, 255, 255);
+}
+
+.center ul li {
+    width: 150px;
+    font-weight: 500;
+    margin: 15px;
+    padding: 15px;
+}
+
+.center ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.active, .center ul li:hover{
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.center .fa{
+    margin-right: 8px;
+}
+
+.submenu1{
+    display: none;
+}
+
+.center ul li:hover .submenu1{
+    display: block;
+    position: absolute;    
+    background-color: rgb(158, 0, 74);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.center ul li:hover .submenu1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.center ul li:hover .submenu1 ul li{
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    width: 150px;
+    padding: 10px;
+}
+
+
+.center ul li:hover .submenu1 ul li:last-child{
+    border-bottom: none;
+}
+
+.center ul li:hover .submenu1 ul li a:hover{
+    color: rgb(0, 0, 0);
+    font-family: montserrat;
+}
+
+.center ul li:hover .submenu1 ul li .fa-angle-right{
+    float: right;
+}
+
+.submenu2{
+    display: none;
+}
+
+.hoverme:hover .submenu2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: rgb(158, 0, 74);
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
